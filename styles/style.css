@@ -360,6 +360,7 @@ a {
   width: 16px;
   height: 16px;
 }
-a {
+
+.footer a {
   color: #f2f2f2;
 }
