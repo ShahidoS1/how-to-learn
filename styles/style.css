@@ -99,6 +99,7 @@
 }
 
 .two-columns__brief {
+  margin: 0;
   flex-basis: 175px;
   margin-top: 0;
   line-height: 1.2;
@@ -135,6 +136,7 @@
 }
 
 .section-title {
+  margin: 0;
   width: 60%;
   margin-left: auto;
   margin-right: auto;
@@ -145,6 +147,7 @@
 }
 
 .section-subtitle {
+  margin: 0;
   width: 60%;
   margin-top: 20px;
   margin-left: auto;
@@ -173,12 +176,14 @@
 }
 
 .table__heading {
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
 }
 
 .table__text {
+  margin: 0;
   margin-top: 20px;
   line-height: 1.2;
   font-size: 18px;
@@ -209,6 +214,7 @@
 }
 
 .feynman__subtitle {
+  margin: 0;
   margin-top: 70px;
   text-align: center;
   line-height: 51px;
@@ -325,16 +331,11 @@
 }
 
 .footer__column-heading {
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 20px;
-}
-
-ul {
-  padding-left: 0;
-  margin-left: 0;
-  list-style-type: none;
 }
 
 .footer__column-link {
@@ -343,10 +344,14 @@ ul {
 }
 
 .footer__column-links {
+  margin-top: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   margin-bottom: 16px;
+  padding-left: 0;
+  margin-left: 0;
+  list-style-type: none;
 }
 
 .footer__column_content_social {
