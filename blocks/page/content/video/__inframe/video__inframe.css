@@ -1,0 +1,9 @@
+.video__inframe {
+  margin-left: 20px;
+  width: 515px;
+  height: 316px;
+}
+
+.video__inframe:nth-last-of-type(2) {
+  margin-left: 0%;
+}
